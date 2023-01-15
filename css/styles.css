@@ -2,4 +2,37 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 }
+
+/* Styling for the nav bar and logo */
+
+header {
+    display: flex;
+    background-color: #1F2937;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+
+    padding: 1em;
+}
+
+a:hover {
+    text-decoration: underline
+}
+
+nav {
+    margin-left: auto;
+    margin-top:auto;
+    margin-bottom: auto;
+    align-items: center;
+}
+
+.logo-image {
+    margin-left: 2em;
+}
+
+/*Styling for the second element.*/
+
